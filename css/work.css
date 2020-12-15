@@ -66,4 +66,9 @@ footer {
     margin: 0px;
     width: 100%;
 }
-
+@media screen and (max-width: 600){
+    img.responsive {width: 200px;}
+}
+.responsive img{
+    height: auto;
+}
