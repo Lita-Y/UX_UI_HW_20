@@ -17,30 +17,38 @@
     text-align: center;
 }
 .hero {
-    display: inline-block;
+    display: grid;
+    grid-template-columns:50% 50%;
 }
 .aboutMe {
+    grid-column-start: auto;
     padding: 55px 0px 0px 20px;
     margin: 20px;
-    width: 35%;
+    width: 50%;
 }
 .aboutMe p {
     text-indent: 12em;
 }
+.active {
+    color: #F1CE4F;
+}
 .photo {
+    grid-column-end: auto;
     width: 50%;
-    float: right;
-    margin: 10px;
-    position: relative;
-    top: -220px;
-    
+    margin: 10px; 
+    padding-bottom: 100px;
 }
 body {
     margin: 0px;
+}
+a {
+ text-decoration: none;
+ color: #fff;
 }
 footer {
     background-color: #454242;
     color: #454242;
     padding: 15px;
-    margin: 0px;
+    margin: 0;
+    width: 100%;
 }
