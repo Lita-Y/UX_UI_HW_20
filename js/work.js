@@ -1,10 +1,8 @@
-
-$("#readMore").click(function (){
-    $("#special").toggleClass("hidden");
-    $(".caseStudy").slideToggle("slow");
-});
-
-$("#readLess").click(function (){
-    $("#special").toggleClass("hidden");
-    $(".caseStudy").slideUp("slow");
+$(function() {
+    $("#readMore").click(function () {
+        $(".caseStudy1").slideToggle(850);
+    });
+    $("#readLess").click(function () {
+        $(".caseStudy1").slideUp(850);
+    });
 });
