@@ -3,6 +3,7 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="css/work.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
@@ -16,10 +17,33 @@
         </header>
         <section>
             <div class="container" id="buzzword">
-                <img width="746px"  src="images/Buzzword.png" class="responsive">
-                <div id="buzzword-text">
-                    <h2>Buzzword</h2>
-                    <p>Buzzword is an app that helps non-native english speakers learn industry jargon and colloquialisms</p>
+                <div class="visible">
+                    <img src="images/Buzzword.png" class="responsive" id="buzzword-image1">
+                    <div id="buzzword-text">
+                        
+                        <h2>Buzzword</h2>
+                        <p>Buzzword is an app that helps non-native english speakers learn industry jargon and colloquialisms</p>
+                        <button id="readMore">Read More</button>
+                    </div>
+                <div id="special" class="hidden caseStudy">
+                    <div class="content">
+                        <p class="end">For our user reseach we interviewed five people who moved to the US knowing some english, and asked them about their experiences learning to speak a new language while working. we also conducted a google survey that got 18 respones from people of varying ages and language background.</p>
+                        <img src="images/Buzzword2.png" class="endI">
+                    </div>
+                    <div class="content">
+                        <img src="images/Buzzword3.png" class="startI">
+                        <p class="start">After our interviews we collated our data and found that the issue of learning english words that are not included in most languages courses was a common theme in our research. We decided to focus on this issue.</p>
+                    </div>
+                    <div class="content">
+                        <p class="end">With our focus of teaching uncommon english phrases and different work related terms we started to brainstorm ideas for how we could do that in an app. One of our main goals for our app was to make it very accessible to working and busy individuals, while still being an effective learning environment. With these ideas in mind we settled on an app that would try to teach you one new word or phrase a day, while also allowing you to review old words or phrases to keep them fresh in your memory.</p>
+                        <img src="images/buzzword.gif" class="endI">
+                    </div>
+                    <div class="content">
+                        <img src="images/Buzzword4.png" class="startI">
+                        <p class="start">We started our prototyping phase by making four separate paper prototypes and then comparing the features and layouts of each and combining them into one midfi prototype on figma. Our original design had a seperate page and menus for our four features.<br><br><button id="readLess">Read Less</button></p>
+                        
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="container" id="WDDC">
@@ -36,6 +60,7 @@
                     <p>What went wrong and what went right with Candy Cave. A 3D multiplayer game for mobile devices.</p>
                 </div>
             </div>
+        <script src="js/work.js"></script>
         </section>
         <footer>
             <div>
