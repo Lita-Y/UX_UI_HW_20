@@ -23,9 +23,8 @@
     grid-template-rows: 1fr;
 }
 .aboutMe {
-    grid-columns: 1;
-    grid-rows: 1;
-    padding: 55px 0px 0px 20px;
+    grid-column: auto;
+    padding: 20px 0px 0px 20px;
     margin: 20px;
     width: 50%;
     display: grid;
@@ -33,9 +32,16 @@
     grid-template-rows: 1fr 1fr;
 }
 .aboutMe h1 {
-    padding-top: 150px;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 35px;
+    padding-top: 75px;
 }
 .aboutMe p {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 35px;
+    padding-top: 150px;
     text-indent: 8em;
     color: #404040;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -44,17 +50,17 @@
     color: #F1CE4F;
 }
 .photo {
-    grid-columns: 1;
-    grid-rows: 1;
+    grid-column: 2;
+    grid-row: 1;
     width: 50%;
     margin: 10px; 
     padding-bottom: 20px;
 }
 .skills {
-    grid-columns: 1;
-    grid-rows: 1;
+    grid-column: 1;
+    grid-row: 2;
     padding: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     margin: 10px;
 }
 .skills h1 {
