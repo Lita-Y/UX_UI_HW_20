@@ -64,6 +64,9 @@ a:hover {
     width: 100%;
     z-index: 12;
 }
+.highlight {
+    color: #0097a7;
+}
 .bottom-link {
     text-decoration: none;
     color: #0097a7;
